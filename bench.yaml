@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/calonso88/tt_spi_i2c_reg_bank
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p2
+  slot: tt_um_calonso88_spi_i2c_reg_bank
+  project: Register bank accessible through SPI and I2C
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 42088eb5035bcd2c65b03319fee6288c6b0b462a
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p2/tt_um_calonso88_spi_i2c_reg_bank
+  branch: tapeout/tinytapeout/ttgf0p2/tt_um_calonso88_spi_i2c_reg_bank
+  page: https://app.tinytapeout.com/shuttles/ttgf0p2
+generated: '2026-10-17T23:18:05Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p2/tt_um_calonso88_spi_i2c_reg_bank
+- upstream/main
